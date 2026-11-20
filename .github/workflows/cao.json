@@ -41,6 +41,13 @@
         "pm-self-learning/cao-control",
         "pm-self-learning/hello-cao"
       ]
+    },
+    "workflows": {
+      "daily-repo-status": {
+        "max-mode": "review",
+        "max-repositories": 1,
+        "mode": "review"
+      }
     }
   },
   "gh-aw-version": "v1.2.2",
