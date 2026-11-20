@@ -1,0 +1,48 @@
+{
+  "$schema": "https://raw.githubusercontent.com/githubnext/gh-cao/main/.github/workflows/shared/cao.schema.json",
+  "control-plane": {
+    "activity": {
+      "public-only": true,
+      "repositories": [
+        "pm-self-learning/cao-control",
+        "pm-self-learning/hello-cao"
+      ]
+    },
+    "campaigns": {},
+    "marketplace": {
+      "registries": [
+        {
+          "auth": {
+            "type": "none"
+          },
+          "id": "official",
+          "name": "Official CAO catalog",
+          "ref": "main",
+          "repository": "githubnext/gh-cao"
+        },
+        {
+          "auth": {
+            "type": "none"
+          },
+          "format": "workflows",
+          "id": "agentics",
+          "name": "Agentics workflows",
+          "path": "workflows",
+          "ref": "main",
+          "repository": "githubnext/agentics"
+        }
+      ]
+    },
+    "scope": {
+      "allowed-owners": [
+        "pm-self-learning"
+      ],
+      "allowed-repositories": [
+        "pm-self-learning/cao-control",
+        "pm-self-learning/hello-cao"
+      ]
+    }
+  },
+  "gh-aw-version": "v1.2.2",
+  "version": 1
+}
